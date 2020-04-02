@@ -12,6 +12,8 @@ const PageContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
+	background:#6a7483;
+	overflow:fixed;
 `;
 
 
@@ -133,7 +135,7 @@ export const Welcome = (props) => {
 				titleColor={'white'}
 				title={'Design Phase '}
 				description={
-					'For the phase of the project a set of BIM products will be developed and a necessary seet of BIM wservices implemented that will insure insure the on-going success of the BIM process which will result in great savings and increase quality throughout the life cycle of the building.'
+					'For the phase of the project a set of BIM products will be developed and the necessary set of BIM services implemented that will insure the on-going success of the BIM process which will result in great savings and increase quality throughout the life cycle of the building.'
 				}
 			/>
 					 <Section
