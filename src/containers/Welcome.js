@@ -133,38 +133,42 @@ export const Welcome = (props) => {
 				titleColor={'white'}
 				title={'Design Phase '}
 				description={
-					'During this phase of the project a set of BIM products will be developed along with the implementation of BIM wservices that will insure insure the on going success of of the BIM process that will result in great savings and increase quality throughout the life cycle of the building.'
+					'For the phase of the project a set of BIM products will be developed and a necessary seet of BIM wservices implemented that will insure insure the on-going success of the BIM process which will result in great savings and increase quality throughout the life cycle of the building.'
 				}
 			/>
-			<Section
+					 <Section
 				refProp={section_1}
 				color={'#6a7483'}
 				title={'Reality Capture '}
-				description={'Accurately captures the existing conditions using spacial laser scanning.'}
+				description={'In order to accurately capture the existing conditions the team will utilize spatial laser scanning at the start of the BIM process. This allows to establish the single source of truth and to link the phisycal reality to the digital design and coordintation space.'}
 			/>
-
-			<Section
+				<Section
 				refProp={section_2}
 				color={'#f0f0f0'}
 				title={'BIM Authoring'}
-				description={'over laying all of the design documents onto the existing conditions model'}
+				description={'Existing design documents will be translated it 3D BIM elements and over layedonto the existing conditions reality captured model.'}
 			/>
-
-			<Section
+				<Section
 				refProp={section_3}
 				color={'#6a7483'}
-				title={'Coordination - Constructability Review '}
+				title={'BIM Coordination'}
 				description={
-					'set time to coordinate the issues on weekly meetings and possibly long work sessions in the beginning to address all of the issues uncovered during coordination of the project Issues to be mitigated: ceiling height, system interferences...The intent is to eliminate the mistakes and change orders'
+					'The team will organize and arrange weekly meetings and possibly longer working sessions to address with the project team all of the issues uncovered during BIM clash detection. Typically project issues  include but not limeted to ceiling height, system interferences, dimensional inaccuracies, etc. The intent is to eliminate the mistakes and change orders.'
 				}
 			/>
+		
+	
+
+		
+
+		
 
 			<Section
 				refProp={section_4}
 				color={'#f0f0f0'}
 				title={'BIM specification'}
 				description={
-					'needs to be included in the bid package in order to structure the BIM centric process and to enable the 3D coordination and to make sure that the contractor team is equipped with the necessary personnel to run the coordination.'
+					'A comprehensive set of guidelines need to be included in the bid package in order to structure the BIM centric process and to enable the 3D coordination as well as to make certain the selected contractor team is equipped with the necessary personnel to run the BIM process, specifically BIM coordination.'
 				}
 			/>
 
@@ -174,7 +178,7 @@ export const Welcome = (props) => {
 				titleColor={'white'}
 				title={'Construction Phase '}
 				description={
-					'During this phase of the project all of the BIM product and documents generated in the design phase will further augmented and brought to the next level of detail. Also during this phase all of the appropriate BIM services will be implemented'
+					'During this phase of the project BIM product and documents generated in the design phase will be further augmented and brought to the next level of detail. Also during this phase all of the appropriate constcution related BIM services will be implemented.'
 				}
 			/>
 			<Section
@@ -182,7 +186,7 @@ export const Welcome = (props) => {
 				color={'#6a7483'}
 				title={'Development of the existing design BIM into construction BIM '}
 				description={
-					'At the begininng of the construction process the team will add the extra level of detail to the design bim model in order to produce a model that adhers to the 400 level of detail - which is equivalent of the shop drawings in the traditional process.'
+					'At the begininng of the construction process the team will add  extra level of detail to the design BIM model in order to produce the model that adhers to the 400 level of detail - which is equivalent of shop drawings level of detail in the traditional process.'
 				}
 			/>
 			<Section
@@ -190,7 +194,7 @@ export const Welcome = (props) => {
 				color={'#f0f0f0'}
 				title={'BIM coordination '}
 				description={
-					'set time to coordinate the issues on weekly meetings and possibly long work sessions in the beginning to address all of the issues uncovered during coordination of the project.'
+					'The team will organize and arrange weekly meetings and possibly longer working sessions to address with the project team all of the issues uncovered during BIM clash detection. These session will also bee used to aid discussions and resolution sessions.'
 				}
 			/>
 
@@ -199,7 +203,7 @@ export const Welcome = (props) => {
 				color={'#6a7483'}
 				title={'Construction Progress Reality Capture '}
 				description={
-					'At the begininng of the construction process the team will add the extra level of detail to the design bim model in order to produce a model that adhers to the 400 level of detail - which is equivalent of the shop drawings in the traditional process.'
+					'Constuction phase reality capture will happen on recurring basis to make certain all of the progress is captured and integrated into the model in order to produce extremely accurate as build documentation and to validate that installation of the equipment is in accordance with the specifications.'
 				}
 			/>
 			<Section
@@ -208,7 +212,7 @@ export const Welcome = (props) => {
 				titleColor={'white'}
 				title={'Operations Phase '}
 				description={
-					'During this phase of the project all of the BIM product and documents generated in the construction phase will be converted to the appropriate artifacts to be used in for operating the facility'
+					'During this phase of the project all of the BIM products and documents generated in the construction phase will be converted to the appropriate artifacts to be used to efficiently operate the facility'
 				}
 			/>
 			<Section
@@ -218,7 +222,7 @@ export const Welcome = (props) => {
 				description={
 					'Operations data and documentation is produced during construction parallel to the BIM process which collapses the timelines and effort associate with commissioning and operations of the project and has resulted in about 75% savings as compared to the traditional process'
 				}
-			/>
+			/> 
 		</PageContainer>
 	);
 };
